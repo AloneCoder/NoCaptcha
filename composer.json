@@ -1,0 +1,9 @@
+{
+  "name": "AloneCoder/NoCaptcha",
+  "description": "Unofficial NoCaptcha API implementation",
+  "keywords" : ["captcha", "nocaptcha", "nocaptcha.mail.ru"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.2"
+  }
+}

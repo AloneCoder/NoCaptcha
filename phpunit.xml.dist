@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.4/phpunit.xsd"
+         colors="true"
+         bootstrap="src/autoload.php"
+         verbose="true">
+    <testsuites>
+        <testsuite name="NoCaptcha Test Suite">
+            <directory>tests/NoCaptcha/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/NoCaptcha/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
